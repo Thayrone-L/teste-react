@@ -1,0 +1,30 @@
+.Card {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.Card .Cheader {
+    color: rgb(255, 255, 255);
+    background: rgba(94, 94, 94, 0.473);
+    backdrop-filter: blur( 4.5px);
+    -webkit-backdrop-filter: blur( 4.5px);
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 15px 0px;
+}
+
+.Card .Cbody {
+    flex: 1;
+    color: black;
+    background: rgba(255, 255, 255, 0.747);
+    backdrop-filter: blur( 4.5px);
+    -webkit-backdrop-filter: blur( 4.5px);
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 15px 0px;
+}
